@@ -28,6 +28,12 @@ export default function Header() {
           <li className="nav-item">
             <Link className="nav-link" to="/Yllapito">Ylläpito</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Register">Rekisteröidy</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Login">Login</Link>
+          </li>
 
 
         </ul>
