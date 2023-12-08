@@ -26,16 +26,18 @@ const Login = () => {
 
       
       console.log('Kirjautuminen onnistui', response.data)
+      
       setLoggedIn(true)
-      navigate('/')
+      
       alert("Olet kirjautunut sisään! Paina OK-näppäintä jatkaaksesi, sinut ohjataan etusivulle" )
+      
+      navigate('/')
+      
 
     } catch (error) {
       console.error('Virhe kirjautumisessa', error)
+      setError('Käyttäjätunnus tai salasana väärin');
     }
-
-    // Aseta virheviesti
-    setError('Käyttäjätunnus tai salasana väärin');
   };
 
   return (
