@@ -32,7 +32,7 @@ export default function Header() {
             <Link className="nav-link" to="/Register">Rekisteröidy</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Login">Login</Link>
+            <Link className="nav-link" to="/Login">Kirjautuminen</Link>
           </li>
 
 

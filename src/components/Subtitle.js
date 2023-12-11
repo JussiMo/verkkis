@@ -27,6 +27,12 @@ const Subtitle = () => {
     } else if (path.includes('/Yllapito')) {
       pageTitle = 'Ylläpito';
       description = 'Ylläpidä tuotteita. Täällä voit lisätä uuden tuotteen!';
+    } else if (path.includes('/Register')) {
+      pageTitle = 'Rekisteröityminen';
+      description = 'Jos et ole vielä rekisteröitynyt jäseneksi, tee se helposti täältä!';
+    } else if (path.includes('/Login')) {
+      pageTitle = 'Kirjautuminen';
+      description = 'Oletko jo rekisteröitynyt? Kirjaudu sisään alla olevasta lomakkeesta syöttämällä käyttäjätunnuksesi ja salasanasi.';
     } 
   
     return (
