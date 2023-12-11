@@ -26,11 +26,13 @@ function submitOrder() {
       }) 
     .then((orderResponse) => {
         console.log('Tilaus tehty onnistuneesti:', orderResponse.data);
+        alert('Tilaus tehty onnistuneesti:', orderResponse.data);
         // Tyhjennetään ostoskori tilauksen jälkeen
         shoppingCart.value = [];
     })
     .catch(error => {
         console.error('Tilausta ei voitu tehdä:', error.message);
+        alert('Tilausta ei voitu tehdä:', error.message);
     });
 }
 
