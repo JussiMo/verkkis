@@ -1,0 +1,22 @@
+    Todetaan paikallaolijat
+	-Atte Huikuri, Sabrina Davidsson, Roosa Nieminen, Lisa Törmänen, Jarkko Määttä
+
+    Saavutettiinko sprintille asetetut tavoitteet?
+	-Tavoitteet saavutettiin ajallaan.
+
+    Tehtiinkö kaikki sprintin käyttäjätarinat/tehtävät?
+	-Kaikki sovitut tehtävät saatiin tehtyä
+
+    Tapahtuiko sprintissä jotain poikkeamia?
+	-Mitään poikkeamia ei tapahtunut tässä sprintissä
+
+    Miten tiimi toimii? Mikä toimii hyvin, missä on haasteita?
+	-Tiimillä toimii hyvin kommunikointi keskenään ja yhtenäinen pohdinta.
+    Uusia haasteita tässä vaiheessa projektia ei ole ilmennyt.
+
+    Mitkä ovat seuraavan sprintin tavoitteet?
+	-Projekti alkaa olla valmis, joten seuraava tavoite sprintille on hienosäätää sivua ja tehdä videoesitys.
+
+    Onko tekijöitä, jotka vaikuttavat työn tekemiseen (poissaoloja, vapaapäiviä)?
+	-Tällä hetkellä ei ole ollut vaikuttavia tekijöitä, jotka olisivat vaikuttaneet työhön.
+    Projektin tekeminen on jo tietyllä tavalla rutinoitunut tiimillä ja tehtvät hoidetaan sovitusti.
