@@ -125,8 +125,8 @@ const Yllapito = () => {
             <option value="Joulukortit">Joulukortit</option>
             <option value="Koristenauhat">Koristenauhat</option>
           </select>
-          <button onClick={AddProduct}>Lisää tuoteryhmä</button>
-          <button onClick={SaveProduct}>Tallenna kategoriat</button>
+          <button onClick={AddProduct}>Lisää tuote</button>
+          <button onClick={SaveProduct}>Tallenna Tuote</button>
     </div>
   );
 };
