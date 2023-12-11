@@ -2,13 +2,36 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { shoppingCart } from "./signals/CartSignal";
 
-
 export default function CartExample() {
     return (
         <div>
             <CartProductList />
+            <button onClick={submitOrder}>Tee tilaus</button>
         </div>
     )
+}
+
+const URL = 'http://localhost:3001'
+
+function submitOrder() {
+    //Creates an order and adds products in the cart to order_line -table
+    //Hardcoded customerid 1 because there is no customer
+
+    axios.post(URL + '/order', {
+        customerId: 1,
+        products: shoppingCart.value.map( product => ({
+            id: product.id,
+            quantity: product.count
+        }) )
+      }) 
+    .then((orderResponse) => {
+        console.log('Tilaus tehty onnistuneesti:', orderResponse.data);
+        // Tyhjennetään ostoskori tilauksen jälkeen
+        shoppingCart.value = [];
+    })
+    .catch(error => {
+        console.error('Tilausta ei voitu tehdä:', error.message);
+    });
 }
 
 // Function to calculate the total price of all products in the cart
