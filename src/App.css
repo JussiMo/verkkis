@@ -1,3 +1,4 @@
+/* Tuotteiden alustan asettaminen */
 .container {
     display: flex;
     flex-direction: column;
@@ -13,13 +14,8 @@
     margin-bottom: 120px;
   }
   
-  .header-box {
-    background-color: #dbf5f5;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
+
+  /* Tuotekorttien tekeminen */
   .content {
     border-radius: inherit;
     border-color: black;
@@ -33,13 +29,16 @@
     font-weight: 900;
   }
   
-  
+
+  /* Tuotteiden asettaminen vierekkäin */
   .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   
+
+  /* Tuotekorttien asetteleminen */
   .product-item {
     display: flex;
     flex-direction: column;
@@ -57,6 +56,8 @@
     transform: scale(1.05);
   }
   
+
+  /* Tuote kuvien, nimen ja hinnan asettteleminen */
   .product-image {
     width: 270px;
     height: 270px;
@@ -76,6 +77,8 @@
     font-weight: bold;
   }
   
+
+  /* Tuotekorttien sisäpuolen asettelu */
   .btn-secondary {
     background-color: #bb5656;
     color: white;
@@ -90,8 +93,10 @@
     background-color: #d11d1d;
   }
 
+
+  /* Tuotteet menevät allekkain pienemmillä näytöillä */
   @media screen and (max-width: 768px) {
     .product-container {
-        flex-wrap: wrap; /* Tuotteet menevät allekkain pienemmillä näytöillä */
+        flex-wrap: wrap;
     }
 }

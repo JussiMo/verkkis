@@ -1,4 +1,7 @@
+/* Fontin määrittely */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+/* Alaotsikon muotoileminen */
 .subtitle {
     background-color: #97a3a3;
     margin-top: 2em;
@@ -16,6 +19,7 @@
 
   }
 
+/* Fonttien määrittely */
   h2 {
     color: #333;
     font-size: 40px;
@@ -33,8 +37,9 @@
     align-items: center; 
   }
 
+/* Tuotteet menevät allekkain pienemmillä näytöillä */
   @media screen and (max-width: 768px) {
     .subtitle {
-        flex-wrap: wrap; /* Tuotteet menevät allekkain pienemmillä näytöillä */
+        flex-wrap: wrap;
     }
 }
